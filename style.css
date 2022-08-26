@@ -1,0 +1,49 @@
+h1, #score {
+padding-top: 50px;
+text-align: center;
+font-family:fantasy;
+font-weight: 400;
+font-size:x-large
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 80px;
+    align-content: center;
+    background-image: url(/background.webp);
+}
+
+.block {
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 50px;
+    bottom: 50px;
+    content: url(/blocka.png);
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    bottom: 50px;
+    content: url(/user.png);
+}
+
+.ball {
+    content: url(/ball.png);
+    width: 40px;
+    height:40px;
+    border-radius: 10px;
+    position: absolute;
+}
